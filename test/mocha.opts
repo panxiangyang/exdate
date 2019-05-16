@@ -5,5 +5,5 @@
 --full-trace
 --bail
 --reporter mochawesome
---reporter-options reportDir=./test/report,reportFilename=exdom,reportPageTitle=exdom
+--reporter-options reportDir=./test/report,reportFilename=exdate,reportPageTitle=exdate
 test/specs/**/*.spec.ts

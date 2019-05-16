@@ -40,7 +40,7 @@ function uglify(options = {}) {
 }
 
 const config = {
-  input: 'src/exobject.ts',
+  input: 'src/exdate.ts',
   output: [
     {
       file: pkg.main,
@@ -53,7 +53,7 @@ const config = {
     {
       file: pkg.umd,
       format: 'umd',
-      name: 'Exo'
+      name: 'Exd'
     }
   ],
   external: [
